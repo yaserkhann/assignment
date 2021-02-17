@@ -1,0 +1,40 @@
+.center-box {
+    background-color: rgb(95, 95, 240);
+    height: 100px;
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.center-item {
+    background-color:rgb(95, 95, 240)
+    top: 50px;
+    left: 250px;
+    height: 100px;
+    width: 950px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.center-item h1{
+margin-left: 50px;
+}
+.center-item ul li {
+display:  inline;
+padding: 50px;
+margin-left: 10px;
+color:white;
+}
+.center-item ul li a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    margin: 0;
+}
+.logo {
+    border-style: none;
+
+}
